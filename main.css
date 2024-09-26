@@ -1,0 +1,53 @@
+.box {
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    animation-name: sabo;
+    position: absolute;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    top: 0;
+    left: 0;
+}
+
+@keyframes sabo {
+    0% {
+        top: 0;
+        left: 0;
+
+    }
+
+    25% {
+        top: 0;
+        left: 80%;
+        background-color: blue;
+        border-radius: 15px;
+
+    }
+
+    50% {
+        top: 65%;
+        left: 75%;
+        background-color: rgb(255, 13, 231);
+        border-radius: 30px;
+
+    }
+
+    75% {
+        top: 65%;
+        left: 0%;
+        background-color: greenyellow;
+        border-radius: 45px;
+
+
+    }
+
+    100% {
+        background-color: plum;
+        border-radius: 55px;
+
+        top: 0%;
+        left: 0%;
+    }
+}
